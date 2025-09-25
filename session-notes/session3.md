@@ -1,4 +1,4 @@
-# Session 1
+# Session 3
 
 ## Charter: Explore Eprimer wikipedia page for good eprime inputs
 

@@ -1,4 +1,4 @@
-# Session 1
+# Session 4
 
 ## Charter: Explore Architecture and Code
 
