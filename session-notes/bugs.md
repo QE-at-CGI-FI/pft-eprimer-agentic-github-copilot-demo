@@ -32,3 +32,9 @@
 - <html>be<html> is detected
 - Double-quoted be is detected while single-quoted be is not. 
 - If single possessive is detected as blue, plural possessive should be too. 
+- No fallover when javascript fails or is disabled
+- missing instructions, e.g placeholder text on text box to say to write text here
+- No privacy notice
+- License banner dominates the page and should appear in e.g. footer instead of the primary interaction space
+- Mixed font styles
+- The H1 title reads awkwardly and is inconsistent with the page title
