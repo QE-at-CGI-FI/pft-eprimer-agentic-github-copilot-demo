@@ -7,13 +7,12 @@ Notes from variable length exploratory testing sessions are in the session-notes
 
 The goal is to find problems in the application and report them as issues in GitHub repository under issues/ directory.
 
-Python-Playwright based test automation code is in the test/ directory.
-
 ## How to respond
 
 When you respond, follow these guidelines: 
 - Be concise. 
 - Generate next best idea to increase test coverage or find problems.
+- Do not generate code. Generate variables in python that could be inputs in test automation code.
 
 When asked for next charter, use this template: 
 **Charter: <title>**
