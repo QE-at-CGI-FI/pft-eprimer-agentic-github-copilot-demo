@@ -43,6 +43,8 @@
 ## Other Charters
 
 - Self-implement a single programmatic test with parameterized inputs for all these
+- systematic review of grammar of forms of to be
+- systematic listing of variables that make text essentially different for this use case
 
 ## Other Notes
 
