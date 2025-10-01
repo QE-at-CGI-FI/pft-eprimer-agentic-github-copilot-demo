@@ -974,7 +974,7 @@ The H1 title reads awkwardly and is inconsistent with the page title, creating c
 1. Navigate to https://qe-at-cgi-fi.github.io/eprime/
 2. Read the browser tab title
 3. Read the main H1 heading on the page
-4. Compare for consistency and clarity
+4. Compare for consistency and clarity (e-primer / eprimer)
 
 ### Expected Result
 Clear, consistent, and well-written titles that accurately represent the application.
