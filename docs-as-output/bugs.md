@@ -24,7 +24,7 @@
 - UI instructions for user are unclear
 - if word is in single quotes, it is not properly recognised as e-prime.
 - text box location in UI is not where user would expect it to be as per the logic of how web pages are usually operating
-- Site is missing favicon and security.txt - both common conventions for web applications
+- Site is missing favicon (404 on console) and security.txt - both common conventions for web applications
 - Resizing the input text field can move it outside view so that it cannot be resized back
 - Choosing which links are to overload this app and which open new browser window are inconsistent
 - The terminology of discouraged / violations would be clearer if consistent terminology, e.g. discouraged words and possibly discouraged words
@@ -38,3 +38,4 @@
 - License banner dominates the page and should appear in e.g. footer instead of the primary interaction space
 - Mixed font styles
 - The H1 title reads awkwardly and is inconsistent with the page title
+- The Wikipedia link opens in a new tab and has rel="nofollow", but lacks rel="noopener noreferrer" which is a security best practice for target=_blank links.
