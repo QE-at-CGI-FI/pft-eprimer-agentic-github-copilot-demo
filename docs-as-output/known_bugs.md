@@ -1,0 +1,41 @@
+# One-liner listing of bugs
+
+- Css validator gives errors
+- Special character as start of line forces an extra line change in grey display box
+- Firefox text field does not clear with ctrl+R
+- Safari allows for scrolling when the scroll bug is reintroduced unless the browser is restarted
+- html validator identifies 3 errors
+- You're / we're / They're contractions not recognised as violations of e-prime
+- Two words separated by line feed are counted as one
+- Human being is noun but recognised as violation
+- Space is considered only separator for words and special characters are counted as words
+- Long text moves button outside user's access as vertical scroll is disabled
+- id naming is inconsistent, some are camel case, others not
+- Long texts without spaces go outside the grey area reserved for displaying the texts
+- Red/blue on grey has bad contrast
+- Zoom or resize of browser renders page unusable due to missing scroll bars
+- Contractions for word count (I'm) count as two words as per general searchable rules of how word counting works
+- The possible violation's category takes possessives and leaves for human assessment and would probably be expected to be something to create programmatic rules on
+- Possible violations does not handle typesetter's apostrophe, only typewriter's apostrophe in calculation
+- Two part words (like people's last names) in possessive form are not recognised as possible violations
+- Images missing alt text necessary for accessibility
+- Accessibility warnings on contrast
+- Mobile use not supported, styles very non-responsive
+- UI instructions for user are unclear
+- if word is in single quotes, it is not properly recognised as e-prime.
+- text box location in UI is not where user would expect it to be as per the logic of how web pages are usually operating
+- Site is missing favicon (404 on console) and security.txt - both common conventions for web applications
+- Resizing the input text field can move it outside view so that it cannot be resized back
+- Choosing which links are to overload this app and which open new browser window are inconsistent
+- The terminology of discouraged / violations would be clearer if consistent terminology, e.g. discouraged words and possibly discouraged words
+- Writing two possible violations together separated by full stop counts less words than violations. The counting logic does not match.
+- <html>be<html> is detected
+- Double-quoted be is detected while single-quoted be is not. 
+- If single possessive is detected as blue, plural possessive should be too. 
+- No fallover when javascript fails or is disabled
+- missing instructions, e.g placeholder text on text box to say to write text here
+- No privacy notice
+- License banner dominates the page and should appear in e.g. footer instead of the primary interaction space
+- Mixed font styles
+- The H1 title reads awkwardly and is inconsistent with the page title
+- The Wikipedia link opens in a new tab and has rel="nofollow", but lacks rel="noopener noreferrer" which is a security best practice for target=_blank links.

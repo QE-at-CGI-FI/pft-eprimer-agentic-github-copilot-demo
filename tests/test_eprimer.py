@@ -4,7 +4,6 @@ from helper.functions import Sample
 import pytest
 class TestEPrimer:
 
-    @pytest.mark.demo
     @allure.title("Test Demonstration")
     def test_demo(self, page_to_url):
         EPrimerPage(page_to_url).fill_text_and_verify("To be or not to be is Hamlet's dilemma", 9, 3, 1)
@@ -57,7 +56,7 @@ class TestEPrimer:
         ("Hanna's Esa's Meera's Süëss-O'Reggio's or Okechukwu's", 6, 0, 4),
 
     ]
-    ids_revealing_bugs=["bug_incorrect_word_count", "bug bible incorrect word count", "bug possessive ending", 
+    ids_revealing_bugs=["bug incorrect word count", "bug bible incorrect word count", "bug possessive ending", 
                         "bug plural possessive ending", "bug all contractions", "whats a word", "dual meaning", 
                         "typesetter apostrophe", "counting words", "singlequoted be", "newline", "newline with text", 
                         "nonstandard contractions", "two part names" ]
